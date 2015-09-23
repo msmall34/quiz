@@ -1,0 +1,165 @@
+
+h1 {
+	margin-bottom: 30px;
+    border-bottom: 1px solid #999999;
+    font-size: 24px;
+}
+.navbar-inverse {
+	background-color: #1b3865 !important;
+	background-image: none;
+	border: none !important;
+	border-radius: 0px;
+}
+
+.nav>li>a {
+    position: relative;
+    display: block;
+    padding: 15px 15px;
+    height: 50px;
+}
+
+.navbar-inverse .navbar-brand {
+    color: #fff;
+    font-weight: bold;
+    font-size: x-large;
+}
+
+.navbar-inverse  li a {
+	color: #fff;
+	font-weight: bold;
+}
+
+.navbar-inverse  li a:hover {
+	color: #106B9E;
+	font-weight: bold;
+}
+
+.navbar-inverse  li.dropdown ul > li a {
+	color: #1F7BAE;
+	font-weight: bold;
+}
+
+
+.navbar-inverse  a:hover {
+	font-weight: bold;
+}
+.logbox {
+    border: 1px solid #AAAAAA;
+    border-radius: 20px;
+    padding: 100px 5px;
+    background: rgba(255,255,255,0.8);
+}
+img.vignette {
+	max-width: 100%;
+	height: auto;
+}
+.modal {
+	width: 980px;
+	margin-left: -490px;
+}
+div.image {
+	border: 3px solid #fff;
+	width: 134px;
+	word-wrap:break-word;
+}
+div.image.active {
+	border: 3px solid #f00;
+}
+p.image a.btn {
+	margin: 0 0 10px 10px;
+}
+.accueil {
+	margin-top: 250px;
+}
+div.rounded {
+    background: #1b3865;
+    border-radius: 50%;
+    height: 150px;
+    margin: 0 auto;
+    width: 150px;
+}
+div.rounded:hover {
+    background: #EEEEEE;
+    color: #1b3865;
+}
+
+div.rounded:hover .fa{
+    color: #1b3865;
+}
+
+div.rounded a {
+	display: block;
+	color: #fff;
+	font-size: 4em;
+	line-height: 2.5em;
+}
+
+.rounded + p a {
+    color: #1b3865;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+#image-select-container {
+	position: relative;
+}
+#image-select-file {
+	position: absolute;
+	top: 0;
+	left: 0;
+	filter: alpha(opacity: 0);
+	opacity: 0;
+	z-index: 10;
+	cursor: pointer;
+}
+#image-select-new {
+	position: absolute;
+	top: 0;
+	left: 0;
+	z-index: 0;
+}
+#image-select-submit {
+	margin-left: 250px;
+}
+
+.span12 {
+width: 1024px !important;
+}
+
+.nav>li {
+    position: relative;
+    display: inline-block;
+}
+
+
+label {
+    display: block;
+}
+
+
+@media only screen and (max-width: 740px) {
+
+
+.navbar-inverse li {
+    position: relative;
+    display: block;
+	width: 100%;
+}
+
+
+.navbar-inverse ul {
+   width: 100%;
+   float: left !important;
+}
+
+.navbar-collapse {
+    padding-right: 0px;
+    padding-left: 0px;
+}
+
+.navbar-collapse.in {
+    overflow-y: initial;
+}
+    
+
+}

@@ -4,7 +4,7 @@ class Admin
 {
 	public function createAdmin($pseudo, $pass, $email, $mail_controle)
 	{
-		$sql = "INSERT INTO quizVtrois_admin (`pseudo`, `pass`, `email`, `date_inscription`, `group`, `mail_controle`) VALUES ( '$pseudo', '$pass', '$email', NOW(), 'admin', '$mail_controle') ";
+		$sql = "INSERT INTO quizVtrois_admin (`pseudo`, `pass`, `email`, `date_inscription`, `group`, `mail_controle`) VALUES ( '$pseudo', '$pass', '$email', NOW(), 'user', '$mail_controle') ";
 
 		$database = new Database();
 

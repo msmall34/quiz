@@ -16,7 +16,7 @@ if ( isset($_POST) && !empty($_POST) )
 
 	if (!$result)
 	{
-		$error['connexion'] = 'adresse mail ou mot de passe incorrects';
+		$error['connexion'] = 'Compte inactif ou adresse mail / mot de passe incorrects';
 	}
 	else
 	{

@@ -14,7 +14,7 @@ class Mail
 
 		if (preg_match($regex, $sender) == 0)
 		{
-			$error['mail'] = 'mail non valide';
+			$error['email'] = 'mail non valide';
 		}
 		else
 		{
@@ -28,7 +28,7 @@ class Mail
 
 		if (preg_match($regex, $to) == 0)
 		{
-			$error['mail'] = 'mail non valide';
+			$error['email'] = 'mail non valide';
 		}
 		else
 		{

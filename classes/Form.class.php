@@ -80,7 +80,7 @@ class Form
 
 	public function getEmail()
 	{
-		return $this->Email;
+		return $this->email;
 	}
 
 	

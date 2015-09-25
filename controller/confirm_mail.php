@@ -6,7 +6,7 @@ if (isset($_GET) && !empty($_GET))
 {
 	$admin = new Admin();
 
-	$email = $_GET['quizVtrois_admin'];
+	$email = $_GET['user'];
 
 	$mail_controle =  $_GET['mail_controle'];
 

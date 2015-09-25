@@ -2,7 +2,7 @@
 	<?php if($_SESSION['group'] == 'admin') : ?>
 		<?php if ($count['0']['COUNT(*)'] > 0) : ?>
 			<p class="alert alert-info">
-			<a href="user.php"><i class="fa fa-info-circle"></i> <?php echo $count['0']['COUNT(*)']; ?> utilisateurs en attente de validation !</a>
+			<a href="admin.php"><i class="fa fa-info-circle"></i> <?php echo $count['0']['COUNT(*)']; ?> utilisateur(s) en attente de validation !</a>
 			</p>
 		<?php endif; ?>
 	<?php endif; ?>
